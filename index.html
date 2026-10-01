@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FK28 Studio — Aplicativos Android</title>
+  <meta name="description" content="Conheça os aplicativos Android da FK28 Studio: Desafio dos Quadradinhos, Plano Financeiro e Mercado Controlado. Apps práticos para organizar dinheiro, metas e compras do dia a dia.">
+  <link rel="canonical" href="https://fk28studioapps-cpu.github.io/">
+  <meta name="theme-color" content="#115d3e" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b1210" media="(prefers-color-scheme: dark)">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/img/favicon-64.png">
+  <link rel="apple-touch-icon" href="assets/img/logo-192.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="FK28 Studio">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="FK28 Studio — Aplicativos Android">
+  <meta property="og:description" content="Apps práticos para organizar dinheiro, metas e compras do dia a dia.">
+  <meta property="og:url" content="https://fk28studioapps-cpu.github.io/">
+  <meta property="og:image" content="https://fk28studioapps-cpu.github.io/assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Logo da FK28 Studio, Mobile Apps">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.remove('no-js');</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "FK28 Studio",
+    "url": "https://fk28studioapps-cpu.github.io/",
+    "logo": "https://fk28studioapps-cpu.github.io/assets/img/logo-192.png",
+    "email": "fk28studioapps@gmail.com",
+    "sameAs": ["https://play.google.com/store/apps/developer?id=fk28studioapps"]
+  }
+  </script>
+</head>
+<body>
+
+<!-- Ícones (SVG reutilizável, sem biblioteca) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M12 4v12m-6-6 6 6 6-6M5 20h14"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path fill="currentColor" d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></symbol>
+  <symbol id="i-replay" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M3 12a9 9 0 1 0 3-6.7M3 4v5h5"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M3 6h18v12H3z"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="m3 7 9 6 9-6"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6l-8-3Z"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="m9 12 2 2 4-4"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><rect x="6" y="2.5" width="12" height="19" rx="2.5" fill="none" stroke="currentColor" stroke-width="2"/><path stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M10.5 18.5h3"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z"/></symbol>
+  <symbol id="i-external" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+  <symbol id="i-swipe" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M4 12h16M16 8l4 4-4 4M8 8l-4 4 4 4"/></symbol>
+</svg>
+
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="site-header">
+  <nav class="container nav" aria-label="Principal">
+    <a class="brand" href="#topo">
+      <img src="assets/img/logo-192.png" alt="" width="36" height="36">
+      <span>FK28 Studio</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+      <svg class="icon-open" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
+      <svg class="icon-close" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+    <ul class="nav-menu" id="menu">
+      <li><a href="#aplicativos">Aplicativos</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#suporte">Suporte</a></li>
+      <li><a class="btn btn--primary" href="https://play.google.com/store/apps/developer?id=fk28studioapps" target="_blank" rel="noopener noreferrer">Google Play</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="conteudo">
+
+  <!-- Hero -->
+  <section class="hero" id="topo" aria-labelledby="hero-titulo">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <span class="eyebrow">Aplicativos Android · Feito no Brasil</span>
+        <h1 id="hero-titulo">Aplicativos que deixam o dia a dia <span class="accent">mais simples.</span></h1>
+        <p class="hero-lead">A FK28 Studio cria apps para guardar dinheiro com metas, organizar as finanças e controlar as compras do mercado — com os seus dados guardados no seu próprio aparelho.</p>
+        <div class="hero-actions">
+          <a class="btn btn--primary" href="#aplicativos">
+            Conheça nossos aplicativos
+            <svg aria-hidden="true"><use href="#i-arrow"/></svg>
+          </a>
+          <a class="btn btn--ghost" href="#suporte">Fale com a gente</a>
+        </div>
+        <ul class="hero-facts" aria-label="Destaques">
+          <li><svg aria-hidden="true"><use href="#i-phone"/></svg>3 apps para Android</li>
+          <li><svg aria-hidden="true"><use href="#i-shield"/></svg>Dados no seu aparelho</li>
+          <li><svg aria-hidden="true"><use href="#i-heart"/></svg>Em português</li>
+        </ul>
+      </div>
+
+      <div class="hero-media" data-hero-media>
+        <!-- O vídeo só é carregado pelo JS no desktop (sem "reduzir movimento" e sem economia de dados).
+             No celular fica só o pôster, e o botão carrega o vídeo sob demanda. -->
+        <video muted playsinline preload="none"
+               poster="assets/video/fk28-intro.jpg"
+               width="1280" height="720"
+               data-src="assets/video/fk28-intro.mp4"
+               aria-label="Animação de abertura: o robozinho da FK28 Studio aparece segurando a placa FK28"></video>
+        <button class="media-replay" type="button" data-hero-play>
+          <svg aria-hidden="true"><use href="#i-play"/></svg>
+          <span>Ver animação</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Aplicativos -->
+  <section class="section section--alt" id="aplicativos" aria-labelledby="apps-titulo">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Nossos apps</span>
+        <h2 id="apps-titulo">Conheça nossos aplicativos</h2>
+        <p>Três apps, cada um focado em uma tarefa do dia a dia. Gratuitos, em português e sem precisar criar conta.</p>
+      </div>
+
+      <ul class="app-index reveal" aria-label="Ir para um aplicativo">
+        <li><a href="#desafio" style="--accent: var(--desafio)">
+          <img src="assets/img/apps/desafio-icone.png" alt="" width="48" height="48">
+          <div><strong>Desafio dos Quadradinhos</strong><span>Metas e finanças</span></div>
+        </a></li>
+        <li><a href="#plano" style="--accent: var(--plano)">
+          <img src="assets/img/apps/plano-icone.png" alt="" width="48" height="48">
+          <div><strong>Plano Financeiro</strong><span>Gastos, cartões e metas</span></div>
+        </a></li>
+        <li><a href="#mercado" style="--accent: var(--mercado)">
+          <img src="assets/img/apps/mercado-icone.png" alt="" width="48" height="48">
+          <div><strong>Mercado Controlado</strong><span>Lista de compras</span></div>
+        </a></li>
+      </ul>
+
+      <!-- Desafio dos Quadradinhos — textos da ficha oficial do Google Play -->
+      <article class="app-card app-card--desafio reveal" id="desafio" aria-labelledby="desafio-titulo">
+        <div class="app-info">
+          <div class="app-head">
+            <img src="assets/img/apps/desafio-icone.png" alt="Ícone do Desafio dos Quadradinhos" width="72" height="72">
+            <div>
+              <span class="app-tag">Metas e finanças</span>
+              <h3 id="desafio-titulo">Desafio dos Quadradinhos</h3>
+            </div>
+          </div>
+          <p class="app-desc">Economize com propósito, um quadradinho de cada vez. O app junta motivação visual para alcançar metas e controle real do seu dinheiro no dia a dia.</p>
+          <ul class="app-features">
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Desafios em quadradinhos com valores iguais, aleatórios ou progressivos</span></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Receitas e despesas por categoria, com transações recorrentes</span></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Orçamentos mensais por categoria e relatórios do mês</span></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Backup manual, bloqueio por PIN e lembretes configuráveis</span></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Modo escuro</span></li>
+          </ul>
+          <div class="app-actions">
+            <a class="btn btn--play" href="https://play.google.com/store/apps/details?id=com.fkstudio.desafiodosquadradinhos" target="_blank" rel="noopener noreferrer">
+              <svg aria-hidden="true"><use href="#i-down"/></svg>
+              Baixar no Google Play
+            </a>
+            <a class="app-privacy" href="https://sites.google.com/view/politicadesafiodosquadradinhos/in%C3%ADcio" target="_blank" rel="noopener noreferrer">Política de privacidade</a>
+          </div>
+        </div>
+        <div class="app-shots">
+          <ul class="gallery" aria-label="Telas do Desafio dos Quadradinhos" tabindex="0">
+            <li><figure><div class="phone"><img src="assets/img/apps/desafio-1.jpg" alt="Painel de Desafios com o total acumulado e o progresso da meta global" width="540" height="1140" loading="lazy" decoding="async"></div><figcaption>Painel de desafios</figcaption></figure></li>
+            <li><figure><div class="phone"><img src="assets/img/apps/desafio-2.jpg" alt="Grade de quadradinhos de um desafio, com os valores já marcados em verde" width="540" height="1140" loading="lazy" decoding="async"></div><figcaption>Seus quadradinhos</figcaption></figure></li>
+            <li><figure><div class="phone"><img src="assets/img/apps/desafio-3.jpg" alt="Tela de conquistas com as medalhas desbloqueadas e as próximas" width="540" height="1140" loading="lazy" decoding="async"></div><figcaption>Conquistas</figcaption></figure></li>
+            <li><figure><div class="phone"><img src="assets/img/apps/desafio-4.jpg" alt="Área financeira com o saldo do mês, receitas e despesas" width="540" height="1140" loading="lazy" decoding="async"></div><figcaption>Área financeira</figcaption></figure></li>
+          </ul>
+          <p class="gallery-hint"><svg aria-hidden="true"><use href="#i-swipe"/></svg>Deslize para ver mais telas</p>
+        </div>
+      </article>
+
+      <!-- Plano Financeiro — textos da ficha oficial do Google Play -->
+      <article class="app-card app-card--plano app-card--reverse reveal" id="plano" aria-labelledby="plano-titulo">
+        <div class="app-info">
+          <div class="app-head">
+            <img src="assets/img/apps/plano-icone.png" alt="Ícone do Plano Financeiro" width="72" height="72">
+            <div>
+              <span class="app-tag">Finanças pessoais</span>
+              <h3 id="plano-titulo">Plano Financeiro</h3>
+            </div>
+          </div>
+          <p class="app-desc">Controle gastos, cartões e metas. Registre receitas e despesas em segundos e veja para onde o seu dinheiro está indo — tudo no seu aparelho, sem precisar criar conta.</p>
+          <ul class="app-features">
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Painel com saldo, entradas e saídas do mês</span></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Cartões de crédito com fatura e carteiras separadas</span></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Metas e planejamento de gastos por categoria</span></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Análise com gráficos de receitas, despesas e categorias</span></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Lembretes de contas, backup e bloqueio por PIN ou biometria</span></li>
+          </ul>
+          <div class="app-actions">
+            <a class="btn btn--play" href="https://play.google.com/store/apps/details?id=com.fkstudio.planofinanceiro" target="_blank" rel="noopener noreferrer">
+              <svg aria-hidden="true"><use href="#i-down"/></svg>
+              Baixar no Google Play
+            </a>
+            <a class="app-privacy" href="https://sites.google.com/view/politicaplanofinanceiro/in%C3%ADcio" target="_blank" rel="noopener noreferrer">Política de privacidade</a>
+          </div>
+        </div>
+        <div class="app-shots">
+          <ul class="gallery" aria-label="Telas do Plano Financeiro" tabindex="0">
+            <li><figure><div class="phone"><img src="assets/img/apps/plano-1.jpg" alt="Tela inicial com o saldo em contas, entradas e saídas do mês" width="540" height="1140" loading="lazy" decoding="async"></div><figcaption>Início</figcaption></figure></li>
+            <li><figure><div class="phone"><img src="assets/img/apps/plano-2.jpg" alt="Meus Cartões, com a fatura e o limite disponível de cada cartão" width="540" height="1140" loading="lazy" decoding="async"></div><figcaption>Cartões e faturas</figcaption></figure></li>
+            <li><figure><div class="phone"><img src="assets/img/apps/plano-3.jpg" alt="Análise financeira com gráfico de rosca das despesas por categoria" width="540" height="1140" loading="lazy" decoding="async"></div><figcaption>Análise financeira</figcaption></figure></li>
+            <li><figure><div class="phone"><img src="assets/img/apps/plano-4.jpg" alt="Minhas Contas, com o saldo de conta corrente, carteira e poupança" width="540" height="1140" loading="lazy" decoding="async"></div><figcaption>Minhas contas</figcaption></figure></li>
+          </ul>
+          <p class="gallery-hint"><svg aria-hidden="true"><use href="#i-swipe"/></svg>Deslize para ver mais telas</p>
+        </div>
+      </article>
+
+      <!-- Mercado Controlado — textos de MercadoControlado/PLAY_STORE.md (ficha preparada para a loja) -->
+      <article class="app-card app-card--mercado reveal" id="mercado" aria-labelledby="mercado-titulo">
+        <div class="app-info">
+          <div class="app-head">
+            <img src="assets/img/apps/mercado-icone.png" alt="Ícone do Mercado Controlado" width="72" height="72">
+            <div>
+              <span class="app-tag">Lista de compras</span>
+              <h3 id="mercado-titulo">Mercado Controlado</h3>
+            </div>
+          </div>
+          <p class="app-desc">Chegue no caixa sabendo exatamente quanto vai pagar. A lista de compras que soma enquanto você anda pelo supermercado e avisa quando você está perto de estourar o orçamento.</p>
+          <ul class="app-features">
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Fale a sua lista: os itens entram de uma vez, com quantidade e preço</span></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Total ao vivo do planejado e do que já está no carrinho</span></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Teto de gastos e lembrança do preço da última compra</span></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Comparador de preços entre os mercados onde você compra</span></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Funciona offline, sem cadastro, com backup em arquivo</span></li>
+          </ul>
+          <div class="app-actions">
+            <!-- CONFIGURAR QUANDO O APP ESTIVER PÚBLICO NA PLAY:
+                 hoje a ficha responde 404 para quem não é testador. Troque este <span> por:
+                 <a class="btn btn--play" href="https://play.google.com/store/apps/details?id=com.fkstudio.mercadocontrolado" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true"><use href="#i-down"/></svg>Baixar no Google Play</a> -->
+            <span class="btn btn--soon" data-play-url="https://play.google.com/store/apps/details?id=com.fkstudio.mercadocontrolado">Em breve no Google Play</span>
+            <a class="app-privacy" href="https://sites.google.com/view/mercado-controlado/in%C3%ADcio" target="_blank" rel="noopener noreferrer">Política de privacidade</a>
+          </div>
+        </div>
+        <div class="app-shots">
+          <ul class="gallery" aria-label="Telas do Mercado Controlado" tabindex="0">
+            <li><figure><div class="phone"><img src="assets/img/apps/mercado-1.jpg" alt="Lista de compras com o total estimado, o valor no carrinho e o teto de gastos" width="540" height="1140" loading="lazy" decoding="async"></div><figcaption>Sua lista</figcaption></figure></li>
+            <li><figure><div class="phone"><img src="assets/img/apps/mercado-2.jpg" alt="Modo Compras, com os itens já pegos e o botão Finalizar" width="540" height="1140" loading="lazy" decoding="async"></div><figcaption>Modo Compras</figcaption></figure></li>
+            <li><figure><div class="phone"><img src="assets/img/apps/mercado-3.jpg" alt="Novo item preenchido com o preço da última compra e o microfone para ditar" width="540" height="1140" loading="lazy" decoding="async"></div><figcaption>Memória de preços</figcaption></figure></li>
+            <li><figure><div class="phone"><img src="assets/img/apps/mercado-4.jpg" alt="Comparador de preços do mesmo produto em dois mercados" width="540" height="1140" loading="lazy" decoding="async"></div><figcaption>Comparar preços</figcaption></figure></li>
+          </ul>
+          <p class="gallery-hint"><svg aria-hidden="true"><use href="#i-swipe"/></svg>Deslize para ver mais telas</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Vídeos do mascote -->
+  <section class="section" id="em-movimento" aria-labelledby="videos-titulo">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Veja em movimento</span>
+        <h2 id="videos-titulo">O mascote da FK28</h2>
+        <p>O robozinho que segura a placa FK28 é a cara do estúdio. Escolha uma animação para assistir.</p>
+      </div>
+
+      <div class="reveal">
+        <div class="player">
+          <video id="player" controls playsinline preload="none"
+                 poster="assets/video/fk28-por-do-sol.jpg"
+                 width="1280" height="720"
+                 aria-label="Animação: o robozinho FK28 num campo ao pôr do sol">
+            <source src="assets/video/fk28-por-do-sol.mp4" type="video/mp4">
+          </video>
+          <button class="player-start" type="button" data-player-start aria-label="Reproduzir animação">
+            <span><svg aria-hidden="true"><use href="#i-play"/></svg></span>
+          </button>
+        </div>
+        <ul class="thumbs" aria-label="Escolher animação">
+          <li><button class="thumb" type="button" aria-current="true"
+                      data-video="assets/video/fk28-por-do-sol.mp4" data-poster="assets/video/fk28-por-do-sol.jpg"
+                      data-label="Animação: o robozinho FK28 num campo ao pôr do sol">
+            <img src="assets/video/fk28-por-do-sol.jpg" alt="" width="960" height="540" loading="lazy" decoding="async">
+            <span>Pôr do sol</span>
+          </button></li>
+          <li><button class="thumb" type="button"
+                      data-video="assets/video/fk28-ruinas.mp4" data-poster="assets/video/fk28-ruinas.jpg"
+                      data-label="Animação: o robozinho FK28 explorando ruínas, em estilo de videogame">
+            <img src="assets/video/fk28-ruinas.jpg" alt="" width="960" height="540" loading="lazy" decoding="async">
+            <span>Aventura</span>
+          </button></li>
+          <li><button class="thumb" type="button"
+                      data-video="assets/video/fk28-livro.mp4" data-poster="assets/video/fk28-livro.jpg"
+                      data-label="Animação: o robozinho FK28 nas páginas de um livro ilustrado">
+            <img src="assets/video/fk28-livro.jpg" alt="" width="960" height="540" loading="lazy" decoding="async">
+            <span>Livro ilustrado</span>
+          </button></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section class="section section--alt" id="sobre" aria-labelledby="sobre-titulo">
+    <div class="container about-grid">
+      <div class="about-art reveal">
+        <img src="assets/img/robo-fk28.jpg" alt="O robozinho mascote da FK28 Studio segurando a placa verde com FK28" width="720" height="1080" loading="lazy" decoding="async">
+      </div>
+      <div class="about-text reveal">
+        <span class="eyebrow">Sobre</span>
+        <div class="section-head" style="margin-bottom: 20px">
+          <h2 id="sobre-titulo">Sobre a FK28 Studio</h2>
+        </div>
+        <p>A FK28 Studio desenvolve aplicativos Android voltados para soluções práticas do dia a dia: juntar dinheiro com metas visuais, organizar as finanças da casa e controlar as compras do mercado.</p>
+        <p>Cada app faz uma coisa e tenta fazer bem feito, com telas claras e sem complicação.</p>
+        <ul class="values">
+          <li>
+            <span class="icon"><svg aria-hidden="true"><use href="#i-shield"/></svg></span>
+            <div><strong>Seus dados ficam com você</strong><span>As informações são guardadas no próprio aparelho, e o backup é um arquivo que você controla.</span></div>
+          </li>
+          <li>
+            <span class="icon"><svg aria-hidden="true"><use href="#i-heart"/></svg></span>
+            <div><strong>Feito em português</strong><span>Apps pensados para o Brasil, com real, vírgula nos centavos e textos em português.</span></div>
+          </li>
+          <li>
+            <span class="icon"><svg aria-hidden="true"><use href="#i-phone"/></svg></span>
+            <div><strong>Gratuitos</strong><span>Os apps são gratuitos e exibem anúncios, com a opção de removê-los por uma compra única.</span></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Suporte -->
+  <section class="section" id="suporte" aria-labelledby="suporte-titulo">
+    <div class="container">
+      <div class="support-card reveal">
+        <div>
+          <span class="eyebrow">Suporte</span>
+          <h2 id="suporte-titulo">Precisa de ajuda?</h2>
+          <p>Dúvidas, sugestões ou algum problema com um dos apps? Escreva para a gente. Para agilizar, conte qual app você usa e o modelo do seu celular.</p>
+          <a class="btn support-mail" href="mailto:fk28studioapps@gmail.com?subject=Suporte%20FK28%20Studio">
+            <svg aria-hidden="true"><use href="#i-mail"/></svg>
+            fk28studioapps@gmail.com
+          </a>
+        </div>
+        <div class="support-links">
+          <h3>Políticas de privacidade</h3>
+          <ul>
+            <li><a href="https://sites.google.com/view/politicadesafiodosquadradinhos/in%C3%ADcio" target="_blank" rel="noopener noreferrer">Desafio dos Quadradinhos <svg aria-hidden="true"><use href="#i-external"/></svg></a></li>
+            <li><a href="https://sites.google.com/view/politicaplanofinanceiro/in%C3%ADcio" target="_blank" rel="noopener noreferrer">Plano Financeiro <svg aria-hidden="true"><use href="#i-external"/></svg></a></li>
+            <li><a href="https://sites.google.com/view/mercado-controlado/in%C3%ADcio" target="_blank" rel="noopener noreferrer">Mercado Controlado <svg aria-hidden="true"><use href="#i-external"/></svg></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#topo">
+          <img src="assets/img/logo-192.png" alt="" width="36" height="36" loading="lazy">
+          <span>FK28 Studio</span>
+        </a>
+        <p>Aplicativos Android para organizar dinheiro, metas e compras do dia a dia.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Rodapé">
+        <ul>
+          <li><a href="#aplicativos">Aplicativos</a></li>
+          <li><a href="#suporte">Suporte</a></li>
+          <li><a href="privacy.html">Política de Privacidade</a></li>
+          <li><a href="https://play.google.com/store/apps/developer?id=fk28studioapps" target="_blank" rel="noopener noreferrer">Google Play</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="footer-copy">© 2026 FK28 Studio. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<script src="js/script.js" defer></script>
+</body>
+</html>
